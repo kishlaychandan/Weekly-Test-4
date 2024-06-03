@@ -26,8 +26,6 @@ Implemented a "Show All" button functionality that allows users to view all avai
 A video explanation of the project has been created to demonstrate its features and functionality. It covers how users can use the search functionality, view phone details on default cards, see phone details on search, access all phones, and navigate the website.
 
 ## Submission
-The project has been submitted via a GitHub repository, which includes:
-- Readme file explaining the implemented functionalities and JavaScript functionality used to complete the task.
 - Hosted link: https://kishlaychandan.github.io/Weekly-Test-4/ .
 
 ## Conclusion
