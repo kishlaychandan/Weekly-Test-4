@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    padding: 4rem 5rem;
+}
+
+nav h1{
+    /* margin: 4rem 5rem; */
+}
+button{
+    
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #6419e6;
+    background-color: #6419e6;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #6419e6;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.section1 > h1{
+    font-size: 4rem;
+}
+.section1 >p{
+    font-size: 1.3rem;
+    width: 50rem;
+    text-align: center;
+}
+
+
+/* start search */
+
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.search>div>input{
+    width: 20rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid gray;
+    /* outline: none; */
+}
+
+.search >.card{
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+
+}
+.search >.card >.cards{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid gray; */
+    border-radius: 1.5rem;
+
+}
+
+.search >.next{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+/* end search*/
